@@ -1,3 +1,4 @@
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './App.css';
 import Header from './Header';
 
