@@ -1,12 +1,17 @@
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import AlertMessageApp from './AlertMessageApp';
-import './App.css';
-import Header from './Header';
+
+import Todo from "./Todo";
+
 
 function App() {
   return (
-    <div>
-    </div>
+    <>
+
+      <div className="h-screen pt-2 bg-gradient-to-r from-cyan-900 to-blue-900">
+          <Todo/>
+      </div>
+
+    </>
   );
 }
 
