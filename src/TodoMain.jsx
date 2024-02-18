@@ -34,10 +34,16 @@ function TodoMain() {
   }
 
   const submitHandler = (e) => {
+    // Prevent to submit the form
     e.preventDefault();
 
-    setMainTask([...mainTask, { title, desc }]);
+    // get the data
+    setMainTask(
+      // this is for save the data in a arrays
+      [...mainTask, { title, desc }]
+      );
 
+      // then again reset the state
     setTitle("");
     setDesc("");
   };
